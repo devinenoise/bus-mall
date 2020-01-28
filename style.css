@@ -17,7 +17,15 @@ h1 {
     justify-content: space-evenly;
 }
 
+#button-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
 button {
     border: 1px solid black;
     padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
 }
