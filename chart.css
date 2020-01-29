@@ -11,3 +11,9 @@ canvas {
     height: 500px;
   }
 
+.chart-container {
+    position: relative;
+    height: 30vh; 
+    width: 88vw;
+
+} 
