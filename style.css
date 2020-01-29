@@ -1,5 +1,6 @@
 body {
     box-sizing: border-box;
+    background-color: lightblue;
 }
 
 header {
@@ -12,9 +13,11 @@ h1 {
 }
 
 .image-container {
-    margin-top: 25 px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-evenly;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 #button-container {
@@ -29,3 +32,9 @@ button {
     text-transform: uppercase;
     text-align: center;
 }
+
+img {
+    height: 250px;
+    width: 250px;
+}
+

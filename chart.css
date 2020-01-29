@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+}
+
+#results {
+    margin-bottom: 100px;
+}
+
+canvas {
+    width: 75%;
+    height: 500px;
+  }
+

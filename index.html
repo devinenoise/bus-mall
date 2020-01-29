@@ -6,30 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Bus Mall product survery</title>
+    <title>Bus Mall product survey</title>
 </head>
 <header>
     <h1>Welcome to Bus Mall</h1>
-    <p>Help us choose our new line of products</p>
+    <p>Help us choose our new line of products and be a part of history</p>
 </header>
 <body>
+    <form>
     <div class="image-container">
-        <label id="product1">
-            <input type="radio" name="product1" value="">
+        <label>
+            <input id="product1" type="radio" name="product" checked />
+            <span id="product1span"></span>
             <img id="img1" src="">
         </label>
-        <label id="product2">
-            <input type="radio" name="product" value="">
+        <label>
+            <input id="product2" type="radio" name="product" />
+            <span id="product2span"></span>
             <img id="img2" src="">   
         </label>
-        <label id="product3">
-            <input type="radio" name="product" value="">
+        <label>
+            <input id="product3" type="radio" name="product"  />
+            <span id="product3span"></span>
             <img id="img3" src="">
         </label>
     </div>
+   
     <div id="button-container">
         <button id="button">Vote</button>
     </div>
+</form>
     <script type="module" src="app.js"></script>
 </body>
 
