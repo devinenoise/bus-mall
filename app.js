@@ -85,7 +85,7 @@ const displayThreeProducts = () => {
     img2.src = product2.image;
     img3.src = product3.image;
 
-    
+
 };
 
 
@@ -124,7 +124,7 @@ form.addEventListener('submit', (e) => {
 
     if (totalVotes >= 25) {
         // document.querySelector('button').disabled = true;
-        alert('Thanks for your participation');
+        alert('Thank you for your participation.');
         // reset the whole app when finished
         reset();
         window.location = 'results.html';
@@ -135,10 +135,4 @@ form.addEventListener('submit', (e) => {
 });
 
 
-
-
-
 displayThreeProducts();
-
-// STRETCH don't show the same product twice in a row
-// STRETCH - keep track of how many times a product appears so we can build a percentage (times clicked / times shown)

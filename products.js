@@ -1,102 +1,102 @@
 export const products = [
     {
-        id: 'space-bag',
+        id: 'Space Bag',
         name: 'Space Bag',
         image: 'assets/bag.jpg',
-        desc: 'Star Wars fans unite over this bag.'
+
     },
     {
-        id: 'banana-slicer',
+        id: 'Banana Slicer',
         name: 'Banana Slicer',
-        desc: 'Meta sliced bananas.'
+        image: 'assets/banana.jpg'
     },
     {
-        id: 'bathroom',
+        id: 'Bathroom Reader',
         name: 'Bathroom Reader Stand',
         image: 'assets/bathroom.jpg'
     },
     {
-        id: 'boots',
+        id: 'Rain Boots',
         name: 'Rain Boots',
         image: 'assets/boots.jpg'
     },
     {
-        id: 'breakfast',
+        id: 'Breakfast Maker',
         name: 'Breakfast Maker',
         image: 'assets/breakfast.jpg'
     },
     {
-        id: 'bubblegum',
+        id: 'Meatball Gum',
         name: 'Meatball Gum',
         image: 'assets/bubblegum.jpg'
     },
     {
-        id: 'chair',
+        id: 'Chair',
         name: 'Chair',
         image: 'assets/chair.jpg'
     },
     {
-        id: 'cthulhu',
+        id: 'Cthulhu',
         name: 'Cthulhu Action Figure',
         image: 'assets/cthulhu.jpg'
     },
     {
-        id: 'dog-duck',
+        id: 'Dog Duck Mask',
         name: 'Duck Mask For Dogs',
         image: 'assets/dog-duck.jpg'
     },
     {
-        id: 'dragon',
+        id: 'Dragon Meat',
         name: 'Dragon Meat',
         image: 'assets/dragon.jpg'
     },
     {
-        id: 'pen',
+        id: 'Pen Cutlery',
         name: 'Pen Cutlery',
         image: 'assets/pen.jpg'
     },
     {
-        id: 'pet-sweep',
+        id: 'Pet Sweep',
         name: 'Pet Sweep',
         image: 'assets/pet-sweep.jpg'
     },
     {
-        id: 'scissors',
+        id: 'Scissors',
         name: 'Pizza Scissors',
         image: 'assets/scissors.jpg'
     },
     {
-        id: 'shark',
+        id: 'Shark Sleeping Bag',
         name: 'Shark Sleeping Bag',
         image: 'assets/shark.jpg'
     },
     {
-        id: 'sweep',
+        id: 'Pet Sweep',
         name: 'Pet Sweep',
         image: 'assets/pet-sweep.jpg'
     },
     {
-        id: 'tauntaun',
+        id: 'Tauntaun Sleeping Bag',
         name: 'Tauntaun Sleeping Bag',
         image: 'assets/tauntaun.jpg'
     },
     {
-        id: 'unicorn',
+        id: 'Unicorn Meat',
         name: 'Unicorn Meat',
         image: 'assets/unicorn.jpg'
     },
     {
-        id: 'usb',
+        id: 'USB Tentacle',
         name: 'USB Tentacle',
         image: 'assets/usb.gif'
     },
     {
-        id: 'water-can',
+        id: 'Water Can',
         name: 'Water Can',
         image: 'assets/water-can.jpg'
     },
     {
-        id: 'wine-glass',
+        id: 'Wine Glass',
         name: 'Wine Glass',
         image: 'assets/wine-glass.jpg'
     },
