@@ -30,7 +30,7 @@ const initializeState = () => {
         };
         productVoteDetails.push(initialVote);
     });
-    
+
 };
 
 // set the votes array ([]) and total votes array ([]) to their initial states
@@ -80,7 +80,7 @@ const displayThreeProducts = () => {
     radio1Span.textContent = product1.id;
     radio2Span.textContent = product2.id;
     radio3Span.textContent = product3.id;
-    
+
     img1.src = product1.image;
     img2.src = product2.image;
     img3.src = product3.image;
@@ -120,7 +120,7 @@ form.addEventListener('submit', (e) => {
 
     localStorage.setItem('votes', JSON.stringify(productVoteDetails));
 
-    if (totalVotes >= 5) {
+    if (totalVotes >= 25) {
         // document.querySelector('button').disabled = true;
         alert('Thanks for your participation');
         // reset the whole app when finished
