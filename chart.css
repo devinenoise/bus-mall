@@ -1,0 +1,48 @@
+#results {
+    margin-top: 25px;
+    margin-bottom: 80px;
+    
+}
+
+.chart-container {
+    margin-left: 150px;
+    height: 15vh; 
+    width: 84vw;
+    margin-bottom: 40px;
+    padding-bottom: 100px;
+    
+} 
+
+#nav {
+    font-family: sans-serif;
+    float: right;
+    text-transform: uppercase;
+    margin-top: 10px;
+    
+}
+
+a:hover {
+    color: #BF8A8A;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+     
+}
+
+canvas {
+    width: 75%;
+    border: 1px solid white;
+    margin-top: 25px;
+    
+}
+
+#results-logo {
+    float: left;
+    padding-top: 5px;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+          
+}
