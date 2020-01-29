@@ -8,37 +8,46 @@
     <link rel="stylesheet" href="style.css">
     <title>Bus Mall product survey</title>
 </head>
-<header>
+<div class="header">
     <h1>Welcome to Bus Mall</h1>
-    <p>Help us choose our new line of products and be a part of history.  Click a product you are interested in and then submit your vote.  The results will be tallied after 25 votes.</p>
-</header>
+    <p>Help us choose our new line of products and be a part of history.</p>
+    <p>Click a product you are interested in and then submit your vote. The results will be displayed after 25 votes.
+    </p>
+</div>
+
 <body>
     <form>
-    <div class="image-container">
-        <label>
-            <img id="img1" src="">
-            <div></div>
-            <input id="product1" type="radio" name="product" checked />
-            <span id="product1span"></span>
-        </label>
-        <label>
-            <img id="img2" src="">   
-            <div></div>
-            <input id="product2" type="radio" name="product" />
-            <span id="product2span"></span>
-        </label>
-        <label>
-            <img id="img3" src="">
-            <div></div>
-            <input id="product3" type="radio" name="product"  />
-            <span id="product3span"></span>
-        </label>
-    </div>
-   
-    <div id="button-container">
-        <button id="button">Vote</button>
-    </div>
-</form>
+        <div class="image-container">
+            <label>
+                <img id="img1" class="product-img" src="">
+                <div></div>
+                <input id="product1" type="radio" name="product" checked />
+                <span id="product1span"></span>
+
+            </label>
+            <label>
+                <img id="img2" class="product-img" src="">
+                <div></div>
+                <input id="product2" type="radio" name="product" />
+                <span id="product2span"></span>
+
+            </label>
+            <label>
+                <img id="img3" class="product-img" src="">
+                <div></div>
+                <input id="product3" type="radio" name="product" />
+                <span id="product3span"></span>
+
+            </label>
+        </div>
+
+        <div id="button-container">
+            <button id="button">Vote</button>
+        </div>
+    </form>
+    <footer>
+        Designed by The Bus Mall &copy; 2020.<span id="footerspan">Helping you make bad decisions since 1996.</span>
+    </footer>
     <script type="module" src="app.js"></script>
 </body>
 

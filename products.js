@@ -2,12 +2,13 @@ export const products = [
     {
         id: 'space-bag',
         name: 'Space Bag',
-        image: 'assets/bag.jpg'
+        image: 'assets/bag.jpg',
+        desc: 'Star Wars fans unite over this bag.'
     },
     {
         id: 'banana-slicer',
         name: 'Banana Slicer',
-        image: 'assets/banana.jpg'
+        desc: 'Meta sliced bananas.'
     },
     {
         id: 'bathroom',

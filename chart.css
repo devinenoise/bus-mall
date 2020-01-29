@@ -1,19 +1,25 @@
 body {
     background-color: lightblue;
+    margin: 0;
+    text-align: center;
+    background-color: #AAADBF
 }
 
 #results {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
+    
 }
 
 canvas {
     width: 75%;
-    height: 500px;
-  }
+    border: 2px solid white;
+    height: 400px;
+}
 
 .chart-container {
+    margin-left: 150px;
     position: relative;
     height: 30vh; 
-    width: 88vw;
-
+    width: 84vw;
+    
 } 

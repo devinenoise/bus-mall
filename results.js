@@ -19,7 +19,7 @@ new Chart(ctx, {
         datasets: [{
             label: '# of Votes',
             data: data,
-            backgroundColor: ['blue', 'blue', 'yellow', 'green', 'purple', 'orange', 'red', 'teal', 'darkblue', 'black', 'blue', 'blue', 'yellow', 'green', 'purple', 'orange', 'red', 'teal', 'darkblue', 'black'],
+            backgroundColor: ['#A4B8BF', '#D9C6BF', '#D9A5A0', '#BF8A8A', 'white', '#A4B8BF', '#D9C6BF', '#D9A5A0', '#BF8A8A', 'white', '#A4B8BF', '#D9C6BF', '#D9A5A0', '#BF8A8A', 'white', '#A4B8BF', '#D9C6BF', '#D9A5A0', '#BF8A8A', 'white'],
         }]
     },
     options: {

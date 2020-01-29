@@ -77,13 +77,15 @@ const displayThreeProducts = () => {
     radio2.value = product2.id;
     radio3.value = product3.id;
 
-    radio1Span.textContent = product1.id;
-    radio2Span.textContent = product2.id;
-    radio3Span.textContent = product3.id;
+    radio1Span.textContent = product1.name;
+    radio2Span.textContent = product2.name;
+    radio3Span.textContent = product3.name;
 
     img1.src = product1.image;
     img2.src = product2.image;
     img3.src = product3.image;
+
+    
 };
 
 
