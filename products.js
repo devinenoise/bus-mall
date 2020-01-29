@@ -2,7 +2,7 @@ export const products = [
     {
         id: 'Space Bag',
         name: 'Space Bag',
-        image: 'assets/bag.jpg',
+        image: 'assets/bag.jpg'
 
     },
     {
